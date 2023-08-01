@@ -7,7 +7,7 @@ function search() {
     return;
   }
 
-  const dataUrl = 'YOUR_EXTERNAL_DATA_URL'; // Replace this with the URL of your text file
+  const dataUrl = 'https://raw.githubusercontent.com/trickest/inventory/main/Airbnb/hostnames.txt'; // Replace this with the URL of your text file
 
   // Fetch data from the URL
   fetch(dataUrl)
